@@ -21,14 +21,14 @@ Healthy when:
 - The hub has at most ~5 roles and ~4 rule blocks; anything beyond that needs an ADR.
 
 ## Status (2026-10-17)
-Lives in `~/Git/project-kit` (moved from `~/Claude` on 2026-10-17; `~/Claude` is now a general Claude Code workspace). Process defined in one long session: two rule blocks (`software`, `content`), five skills, one role (`reviewer`), scripts tested in a sandbox, `install.sh` run (symlinks in place, Claude Code picked up skills and the agent live). Hub adopted as its own product; queens-game adopted as the first pilot. Nothing committed yet.
+Lives in `~/Git/project-kit` (moved from `~/Claude` on 2026-10-17; `~/Claude` is now a general Claude Code workspace). Process defined in one long session: two rule blocks (`software`, `content`), five skills, one role (`reviewer`), scripts tested in a sandbox, `install.sh` run (symlinks in place, Claude Code picked up skills and the agent live). Hub adopted as its own product; queens-game adopted as the first pilot. Both committed on 2026-10-17; kit is a private GitHub repo (`pavlozinchenko/project-kit`). Open design question: which files are kit structure and which are the owner's data (e.g. `projects.md`, `global/AGENTS.md`); `projects.md` is git-ignored meanwhile.
 
 ## Next tasks
 | Task | Done when | Priority | Status | Updated |
 |------|-----------|----------|--------|---------|
+| Decide structure vs data | each top-level file classified as kit structure, shipped default, or owner data; ADR written; `projects.md` and personal prefs moved accordingly | H | planned | 2026-10-17 |
 | Pavlo reviews the docs | feedback given on `README.md`, `playbook/02`, hub and queens-game charters | H | active | 2026-10-17 |
 | Define H/M/L | `playbook/06-priorities.md` filled in by Pavlo | H | planned | 2026-10-17 |
-| First commit | hub committed after review, incl. backlog and questions | H | planned | 2026-10-17 |
 | Confirm Codex sees skills | fresh Codex session lists the 5 skills | M | planned | 2026-10-17 |
 | Pilot on real projects | three entries adopted, each lived through 5 start/end sessions (1/3 adopted) | M | active | 2026-10-17 |
 | Decide docs language | open question below answered; translate if needed | L | planned | 2026-10-17 |
