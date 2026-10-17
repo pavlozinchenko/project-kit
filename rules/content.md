@@ -1,0 +1,8 @@
+- Name which layer a task touches: the text itself, its structure, or its presentation (layout, styling). Do not mix them in one step.
+- Drafts are versions: keep earlier drafts in `drafts/` or git history, never overwrite the only copy.
+- Verification means re-reading as the intended reader: say who the reader is and check tone, length and clarity against that.
+- For anything published (site, post, game level): build or preview locally before claiming it works, and note the command or the check in the journal.
+- Visual standard where it applies: minimal, pixel-aligned, consistent spacing, readable contrast, SVG icons only.
+- Strict formats: ISO-8601 dates, explicit currency codes.
+- URL, title or structure changes to published work get an ADR (hard to undo).
+- Mobile matters for web content: Chrome, Firefox and Telegram WebView behave differently.

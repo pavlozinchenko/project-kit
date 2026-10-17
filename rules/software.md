@@ -1,0 +1,6 @@
+- Before coding: confirm the run command and the test command exist and pass. Put them under "Project specifics".
+- Every change ships with its verification: a test, or a manual check written in the journal.
+- No magic numbers, no dead code, no unused i18n keys, no duplicated logic.
+- Prefer the smallest diff that solves the task. Refactors are separate, approved steps.
+- Data safety: never modify or delete rows in a live database without explicit confirmation in that same session.
+- Dependencies: pin versions; record why a new dependency was added (ADR if it is structural).
